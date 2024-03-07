@@ -1,7 +1,9 @@
+import sklearn
 import pickle as pk
 import pandas as pd
 import numpy as np
 import streamlit as st
+
 
 model_path = "Heart_Disease_Model.pkl"
 data_path = "heart_disease.csv"
